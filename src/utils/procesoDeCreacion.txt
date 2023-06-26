@@ -1,0 +1,16 @@
+Bueno para contar el proceso de creación:
+Reconozco que me pase el deadline pero no queria entregar cualquier cosa y venia con poco tiempo,
+quería entenderlo por lo cual fui copiando paso a paso lo que hacia nelson, video a video y volviendo a probar, hasta que
+me fui destrabando, luego cuando ya pude levantar el servidor con su base de datos y login y hacer todo lo que hacia nelson 
+en los videos de ayuda pude entender masomenos como se acopla todo. Luego en el proyecto, cree las carpetas, los archivos
+instale todos los npm y arranque poniendo los middleware y protocolos passport jwt de authentification , para poder hacer el 
+login y el archivo  auth en rutas, para ya dejarlo preseteado a todo lo que tenga que ver con la autentificacion, hice la estructura 
+base de User, en la carpeta de modelos y con ello lo acople a cada modelo tanto de library como de book; consecuentemente 
+segui con la parte de los providers y arme el provider de library y book tambien dandome una mano con el modelo previo dado en 
+clases(de user). 
+Luego de ahi a services que trate de validar antes de crear y actualizar. Y despues probe que funcionara todo hasta ahi.
+Hasta ahi estuvo todo perfecto, despues se me complico un poco la division de controllers con rutas porque yo lo habia hecho 
+todo junto previamente. Asi que me tomo un tiempo de repaso, poder separar ambos archivos, para que sean 2 en vez de uno enorme
+Basicamente una vez que pude entender como funcionaban en conjunto fue hacer un archivo propio para cada objeto
+(user, library, book) de la api en cada carpeta*(models, provider, services, rutas ycontroles) y buscar la sincronicidad 
+entre los archivos para que funcionen en conjunto cuando corra la app. Me costo bastante lo de separar controllers y rutas.

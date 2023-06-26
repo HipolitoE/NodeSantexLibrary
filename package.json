@@ -1,0 +1,22 @@
+{
+  "name": "xacademy",
+  "version": "1.0.0",
+  "description": "Nuestro primer proyecto con Node ",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "HEsposito",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.1",
+    "passport-local": "^1.0.0",
+    "sequelize": "^6.32.0",
+    "sqlite3": "^5.1.6"
+  }
+}
